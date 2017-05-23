@@ -1,5 +1,4 @@
-
 test:
   override:
-      files:
-        - test/**/*_test.rb
+    files:
+      - test/**/*_test.rb
