@@ -1,5 +1,6 @@
 class MagicBall
   ANSWERS = [
+    "Huh?",
     "It is certain",
     "It is decidedly so",
     "Without a doubt",

@@ -21,4 +21,8 @@ class MagicBallTest < Minitest::Test
       magic_ball.ask(1)
     end
   end
+
+  def test_predefined_answers_includes_huh
+    assert_includes MagicBall::ANSWERS, 'Huh?'
+  end
 end
