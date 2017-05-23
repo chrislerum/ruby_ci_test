@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'magic_ball'
+require_relative '../../magic_ball'
 
 class MagicBallTest < Minitest::Test
   def test_ask_returns_an_answer
