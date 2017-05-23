@@ -1,0 +1,3 @@
+test:
+  minitest_globs:
+    - test/integration/**/*.rb
